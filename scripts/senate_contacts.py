@@ -3,6 +3,7 @@
 # Update current senator's website and address from www.senate.gov.
 
 import lxml.etree, io
+import ssl
 import string, re
 from datetime import datetime
 import utils
@@ -101,7 +102,7 @@ def run():
 			try:
 				req = urllib.request.Request(url)
 				req.add_header("User-Agent", "https://github.com/unitedstates/congress-legislators")
-				resp = urllib.request.urlopen(req)
+				resp = urllib.request.urlopen(req, context=ssl._create_unverified_context())
 				url = resp.geturl()
 			except Exception as e:
 				print(url, e)

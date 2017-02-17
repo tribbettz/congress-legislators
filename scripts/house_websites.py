@@ -9,6 +9,7 @@
 
 import lxml.html, io, urllib.request, urllib.error, urllib.parse
 import re
+import ssl
 import utils
 from utils import load_data, save_data
 
@@ -78,7 +79,8 @@ def run():
       # directory to have the current active subdomain. As an example,
       # the directory lists randyforbes.house.gov, which redirects to
       # forbes.house.gov.
-      resp = urllib.request.urlopen(url)
+      context = ssl._create_unverified_context()
+      resp = urllib.request.urlopen(url, context=context)
       url = resp.geturl()
 
       # kill everything after the domain
