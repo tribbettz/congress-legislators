@@ -45,6 +45,7 @@ youtube,^cp$,embed tag
 youtube,SmallBizRepublicans,shared page
 youtube,^watch$,embed tag
 youtube,housedems,embed tag
+youtube,republicanconference,embed tag
 youtube,^WSB111$,Some weird vendor thing
 youtube,^p$,embed tag
 youtube,HouseConference,shared page
@@ -53,3 +54,24 @@ youtube,RepublicanLeader,shared page
 youtube,ElizabethForMA,campaign account
 youtube,^player_api$,embed tag
 twitter,^PatrickMurphyFL$,campaign account
+facebook,128261203867188,commented out thing on carolyn mccarthy's site
+facebook,^BrianSchatz$,campaign account
+facebook,^pages$,pages is never the answer
+youtube,^upload\)<$,weird
+facebook,^blumenauer$,campaign account
+youtube,^HCmNo6p7XRqNs$,"auto-generated channel, not videos created by staff"
+youtube,^channel$,ignore detections of “/channel”
+facebook,^socialjobs$,some job thing on booker's site
+twitter,^USRepJoeWilson$,404s
+twitter,^FraminghamPatch$,not the right one
+twitter,^CandiceMiller$,"we have it already, blacklisted because it shows up elsewhere mistakenly"
+facebook,^billnelson$,"campaign account, even though listed on official page"
+instagram,republicanconference, not an individual's account
+instagram,housedemocrats, not an individual's account
+twitter,^housegop$,house gop conference
+twitter,^share\?,share URL with query string
+twitter,^sethmoulton$,seth moulton's campaign account
+facebook,^HouseRepublicans$,house conference account
+facebook,^sharer$,share URL
+youtube,^c$,junk
+twitter,^OlsonPressShop$,"not the right one (linked, but other one is used)"

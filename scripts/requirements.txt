@@ -1,5 +1,10 @@
 pyyaml
-scrapelib
+rtyaml
+scrapelib==0.10.1
 ipython
 lxml>=2.2
 cssselect
+pyflakes
+pytz
+tweepy
+sparqlwrapper
